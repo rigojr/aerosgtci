@@ -29,7 +29,7 @@
             <label for="text-contact-1">Tell Us</label>
             <TEXTAREA id="text-contact-1" name="text-contact-1"  class="form-control" type="text" placeholder="Comments..." required></TEXTAREA> 
           </div>
-          <div class="g-recaptcha form-group" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
+          <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
           <input id="submit" type="submit" name="submit" class="btn btn-light wow fadeIn" data-wow-duration="2s" data-wow-delay="1s"></input>
         </form>
         </div>
