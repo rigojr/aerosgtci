@@ -1,0 +1,22 @@
+/* TABLA DE CONTENIDO */
+/* 0 - VARIABLES
+ * 1 - HEADER
+ *
+ */
+/* VARIABLES */
+/* COLORES */
+/* TIPOGRAFIA */
+/* HEADER */
+body header {
+  margin-top: 1.5rem; }
+  body header .container .row .logo p {
+    text-align: center; }
+    body header .container .row .logo p a img {
+      max-width: 150px; }
+  body header .container .row nav {
+    padding: 19px 0px; }
+    body header .container .row nav ul li a {
+      font-size: 1rem;
+      color: #3B3B3B; }
+
+/*# sourceMappingURL=rigo.css.map */

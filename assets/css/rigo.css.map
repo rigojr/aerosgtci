@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;AAiCC,WAAM;EACL,UAAU,EAAE,MAAM;EAIf,mCAAC;IACA,UAAU,EAAE,MAAM;IAEjB,yCAAG;MACF,SAAS,EAAE,KAAK;EACpB,+BAAG;IACF,OAAO,EAAE,QAAQ;IAGf,uCAAC;MACA,SAAS,EAzBN,IAAI;MA0BP,KAAK,EArCA,OAAO",
+"sources": ["rigo.sass"],
+"names": [],
+"file": "rigo.css"
+}
