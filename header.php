@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -16,7 +16,7 @@
 			<div class="row">
 				<div class="col-sm-3 logo">
 					<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci.png">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci.png" alt="GTCI Logo" title="Gruptech Cloud Innovations">
 					</a></p>
 				</div>
 				<nav class="col-sm-9 navigation">

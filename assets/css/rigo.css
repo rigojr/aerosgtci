@@ -1,6 +1,7 @@
 /* TABLA DE CONTENIDO */
 /* 0 - VARIABLES
  * 1 - HEADER
+ * 2 - FOOTER
  *
  */
 /* VARIABLES */
@@ -18,5 +19,21 @@ body header {
     body header .container .row nav ul li a {
       font-size: 1rem;
       color: #3B3B3B; }
+
+/* FOOTER */
+body footer .rrss {
+  margin-bottom: 0.1rem; }
+  body footer .rrss ul li a {
+    padding: 0rem 0.5rem; }
+    body footer .rrss ul li a img {
+      max-width: 1rem; }
+body footer .copy p {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 0.1rem; }
+body footer .copy .right {
+  font-size: 1rem; }
+body footer .copy .author {
+  font-size: 0.85rem; }
 
 /*# sourceMappingURL=rigo.css.map */
