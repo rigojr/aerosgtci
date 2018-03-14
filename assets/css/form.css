@@ -1,3 +1,12 @@
+body{
+  font-family:"Josefin Sans", sans-serif !important;
+}
+
+#pull{
+  margin-left:10%;
+  width:45%;
+}
+
 #name-contact-1{
   margin-top:5rem;
 }
@@ -58,7 +67,7 @@ input:focus, textarea:focus {
 }
 
 label {
-    display: inline-block;
+    display: block;
     max-width: 100%;
     margin-bottom: 5px;
     margin-top: 10px;
@@ -73,4 +82,8 @@ label {
     color: #111;
 }
 
+.inlineB{
+  display:inline-block;
+  width:44%;
+}
 /*FORM*/
