@@ -3,6 +3,7 @@
 	0 - VARIABLES
 	1 - HEADER
 	2 - FOOTER
+	3 - BREADCRUMB
 
 	*/
 
@@ -25,7 +26,7 @@ $gris: #A6A6A6
 $tam-menu: 1rem
 $tam-footer-principal: 1rem
 $tam-footer-secundario: 0.85rem
-$tam-bread-principal: 1.7rem
+$tam-bread-principal: 2.5rem
 $tam-bread-secundario: 1.3rem
 $tam-parrafo-normal: 1rem
 
@@ -70,3 +71,22 @@ body
 				font-size: $tam-footer-principal
 			.author
 				font-size: $tam-footer-secundario
+
+/* BREADCRUMB */
+
+body
+	.breadcrumb
+		border-radius: 0rem
+		.breadcrumb-name
+			h1
+				text-align: center
+				font-size: $tam-bread-principal
+				width: 100%
+				color: $blanco-fuerte
+		.submenu
+			margin: 0 auto
+			ul
+				li
+					a
+						font-size: $tam-bread-secundario
+						color: $blanco-fuerte

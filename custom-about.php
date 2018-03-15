@@ -1,0 +1,7 @@
+<?php /* Template Name: about-custom*/ ?>
+
+<?php get_header(); ?>
+
+<?php get_template_part( 'breadcrumb' ); ?>
+
+<?php get_footer(); ?>

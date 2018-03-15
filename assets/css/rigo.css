@@ -2,6 +2,7 @@
 /* 0 - VARIABLES
  * 1 - HEADER
  * 2 - FOOTER
+ * 3 - BREADCRUMB
  *
  */
 /* VARIABLES */
@@ -35,5 +36,19 @@ body footer .copy .right {
   font-size: 1rem; }
 body footer .copy .author {
   font-size: 0.85rem; }
+
+/* BREADCRUMB */
+body .breadcrumb {
+  border-radius: 0rem; }
+  body .breadcrumb .breadcrumb-name h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 100%;
+    color: #FFFFFF; }
+  body .breadcrumb .submenu {
+    margin: 0 auto; }
+    body .breadcrumb .submenu ul li a {
+      font-size: 1.3rem;
+      color: #FFFFFF; }
 
 /*# sourceMappingURL=rigo.css.map */
