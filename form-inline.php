@@ -1,4 +1,4 @@
-   <div class="modal-overlay">
+<div class="modal-overlay">
       <div class="modal">
         
         <a class="close-modal">
@@ -10,9 +10,9 @@
         <!--<div class="modal-content">-->
         <div class="form-login">
           <div class="contact">
-            <h3> Contact Us </h3>
+            <h2> Contact Us </h2>
           </div>
-        <form action="mail_to_glo.php" method="post" >
+        <form action="mail_to_glo.php" method="post">
           <div class="form-group">
             <label for="name-contact-1">Name</label>
             <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" required>
@@ -21,16 +21,28 @@
             <label for="mail-contact-1">E-mail</label>
             <input id="mail-contact-1" name="mail-contact-1"  class="form-control" type="email" required>
           </div>
-          <div class="form-group">
+
+
+          <div class="form-group inlineB ">
             <label for="phone-contact">Phone Number</label>
             <input id="phone-contact" name="phone-contact"  class="form-control" type="tel">
           </div>
+          <div id="pull" class="form-group inlineB">
+            <label for="interest-contact">Interest</label>
+            <select id=interest-contact class="form-control">
+              <option>Select</option>
+              <option>Information</option>
+              <option>Offers</option>
+            </select>
+          </div>
+
+
           <div class="form-group">
             <label for="text-contact-1">Tell Us</label>
             <TEXTAREA id="text-contact-1" name="text-contact-1"  class="form-control" type="text" placeholder="Comments..." required></TEXTAREA> 
           </div>
           <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
-          <input id="submit" type="submit" name="submit" class="btn btn-light wow fadeIn" data-wow-duration="2s" data-wow-delay="1s"></input>
+          <input id="submit" type="submit" name="submit"></input>
         </form>
         </div>
        <!-- </div> content -->
