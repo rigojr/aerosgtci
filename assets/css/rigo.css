@@ -3,6 +3,7 @@
  * 1 - HEADER
  * 2 - FOOTER
  * 3 - BREADCRUMB
+ * 4 - ABOUT
  *
  */
 /* VARIABLES */
@@ -50,5 +51,32 @@ body .breadcrumb {
     body .breadcrumb .submenu ul li a {
       font-size: 1.3rem;
       color: #FFFFFF; }
+
+/* ABOUT */
+body .wrap-960 {
+  max-width: 100rem;
+  margin: 0rem auto; }
+  body .wrap-960 .img-whyus img {
+    width: 100%; }
+  body .wrap-960 .about-info-1 h2, body .wrap-960 .about-info-1 .alineado-text {
+    text-align: center; }
+  body .wrap-960 .about-info-1 p {
+    text-align: justify; }
+  body .wrap-960 .info-about {
+    margin: 5rem 0rem; }
+  body .wrap-960 .title-advantages h3 {
+    font-weight: 700;
+    text-align: center; }
+  body .wrap-960 .about-info-2 {
+    text-align: center; }
+  body .wrap-960 .bia-movement h2 {
+    color: #494A9F;
+    font-weight: 700;
+    text-align: center; }
+  body .wrap-960 .info-final {
+    margin-bottom: 2.5rem; }
+body .wrap-no-960 {
+  background-color: #FFFFFF;
+  height: 50rem; }
 
 /*# sourceMappingURL=rigo.css.map */
