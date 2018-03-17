@@ -39,6 +39,7 @@
           <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
          <center> <input id="submit" type="submit" name="submit"></input> </center>
         </form>
+        <br><p>Lorem ipsum dolor sit amet</p>
         </div>
        <!-- </div> content -->
         
