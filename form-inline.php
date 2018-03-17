@@ -14,23 +14,19 @@
           </div>
         <form action="mail_to_glo.php" method="post">
           <div class="form-group">
-            <label for="name-contact-1">Name</label>
-            <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" required>
+            <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" placeholder="Full Name" required>
           </div>
           <div class="form-group">
-            <label for="mail-contact-1">E-mail</label>
-            <input id="mail-contact-1" name="mail-contact-1"  class="form-control" type="email" required>
+            <input id="mail-contact-1" name="mail-contact-1"  class="form-control" type="email" placeholder="E-Mail" required>
           </div>
 
 
-          <div class="form-group inlineB ">
-            <label for="phone-contact">Phone Number</label>
-            <input id="phone-contact" name="phone-contact"  class="form-control" type="tel">
+          <div class="form-group inlineB">
+            <input id="phone-contact" name="phone-contact"  class="form-control" type="tel" placeholder="Phone Number">
           </div>
           <div id="pull" class="form-group inlineB">
-            <label for="interest-contact">Interest</label>
             <select id=interest-contact class="form-control">
-              <option>Select</option>
+              <option>Select Your Interest</option>
               <option>Information</option>
               <option>Offers</option>
             </select>
@@ -38,11 +34,10 @@
 
 
           <div class="form-group">
-            <label for="text-contact-1">Tell Us</label>
-            <TEXTAREA id="text-contact-1" name="text-contact-1"  class="form-control" type="text" placeholder="Comments..." required></TEXTAREA> 
+            <TEXTAREA id="text-contact-1" name="text-contact-1"  class="form-control" type="text" placeholder="Your Comments..." required></TEXTAREA> 
           </div>
           <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
-          <input id="submit" type="submit" name="submit"></input>
+         <center> <input id="submit" type="submit" name="submit"></input> </center>
         </form>
         </div>
        <!-- </div> content -->

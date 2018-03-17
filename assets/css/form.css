@@ -1,3 +1,28 @@
+#submit{
+  display: inline-block;
+  color: #666;
+  background-color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-bottom-width: 3px;
+}
+
+#submit:hover{
+  background-color: #e3e3e3;
+  border-color: rgba(0,0,0,0.5);
+}
+
+#submit:active{
+  background-color: #CCC;
+  border-color: rgba(0,0,0,0.9);
+}
+
 body{
   font-family:"Josefin Sans", sans-serif !important;
 }
@@ -33,11 +58,11 @@ textarea{
   resize: none;
 }
 
-input:hover, textarea:hover {
+input#name-contact-1:hover, input#text-contact-1:hover, input#phone-contact:hover, input#mail-contact-1:hover, textarea:hover, select:hover {
     border: 1px solid #555;
 }
 
-input:focus, textarea:focus {
+input#name-contact-1:focus, input#text-contact-1:focus, input#phone-contact:focus, input#mail-contact-1:hover, textarea:focus, select:focus {
     border: 1px solid #555 !important;
 }
 
@@ -87,3 +112,14 @@ label {
   width:44%;
 }
 /*FORM*/
+
+@media only screen and (max-width: 39.9375rem) {
+  #pull{
+    margin-left:0;
+    width:100%;
+  }
+
+  .inlineB{
+    width:100%;
+  }
+}
