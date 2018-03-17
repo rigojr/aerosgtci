@@ -23,20 +23,23 @@ body header {
       color: #3B3B3B; }
 
 /* FOOTER */
-body footer .rrss {
-  margin-bottom: 0.1rem; }
-  body footer .rrss ul li a {
-    padding: 0rem 0.5rem; }
-    body footer .rrss ul li a img {
-      max-width: 1rem; }
-body footer .copy p {
-  text-align: center;
-  font-weight: 200;
-  margin-bottom: 0.1rem; }
-body footer .copy .right {
-  font-size: 1rem; }
-body footer .copy .author {
-  font-size: 0.85rem; }
+body footer {
+  margin-top: 1rem;
+  padding-top: 1rem; }
+  body footer .rrss {
+    margin-bottom: 0.1rem; }
+    body footer .rrss ul li a {
+      padding: 0rem 0.5rem; }
+      body footer .rrss ul li a img {
+        max-width: 1rem; }
+  body footer .copy p {
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 0.1rem; }
+  body footer .copy .right {
+    font-size: 1rem; }
+  body footer .copy .author {
+    font-size: 0.85rem; }
 
 /* BREADCRUMB */
 body .breadcrumb {
@@ -54,10 +57,12 @@ body .breadcrumb {
 
 /* ABOUT */
 body .wrap-960 {
-  max-width: 100rem;
+  max-width: 960px;
   margin: 0rem auto; }
-  body .wrap-960 .img-whyus img {
-    width: 100%; }
+  body .wrap-960 .img-whyus {
+    padding-top: 5rem; }
+    body .wrap-960 .img-whyus img {
+      width: 100%; }
   body .wrap-960 .about-info-1 h2, body .wrap-960 .about-info-1 .alineado-text {
     text-align: center; }
   body .wrap-960 .about-info-1 p {
@@ -77,6 +82,35 @@ body .wrap-960 {
     margin-bottom: 2.5rem; }
 body .wrap-no-960 {
   background-color: #FFFFFF;
-  height: 50rem; }
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem; }
+  body .wrap-no-960 h2 {
+    text-align: center;
+    color: #3B3B3B;
+    font-weight: 700; }
+  body .wrap-no-960 .info-about-2 {
+    max-width: 1200px;
+    width: 100%;
+    padding: 2rem 0rem; }
+  body .wrap-no-960 .card {
+    background-color: #EDEEF6;
+    transition: 300ms all ease; }
+    body .wrap-no-960 .card:hover {
+      background-color: #FFFFFF; }
+    body .wrap-no-960 .card .card-body {
+      background-repeat: no-repeat !important;
+      background-position: center !important; }
+      body .wrap-no-960 .card .card-body .card-title {
+        text-align: left !important;
+        margin-bottom: 0rem; }
+      body .wrap-no-960 .card .card-body .card-text {
+        text-align: center; }
+      body .wrap-no-960 .card .card-body hr {
+        heigth: 0.1rem !important;
+        border-top: 5px solid #FFFFFF !important;
+        width: 10rem;
+        margin-top: 0.3rem; }
+  body .wrap-no-960 .featured-info {
+    margin-top: 1rem; }
 
 /*# sourceMappingURL=rigo.css.map */

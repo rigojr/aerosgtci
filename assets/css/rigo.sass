@@ -55,6 +55,8 @@ body
 /* FOOTER */
 body
 	footer
+		margin-top: 1rem
+		padding-top: 1rem
 		.rrss
 			margin-bottom: 0.1rem
 			ul
@@ -95,9 +97,10 @@ body
 /* ABOUT */
 body
 	.wrap-960
-		max-width: 100rem
+		max-width: 960px
 		margin: 0rem auto
 		.img-whyus
+			padding-top: 5rem
 			img
 				width: 100%
 		.about-info-1
@@ -122,4 +125,34 @@ body
 			margin-bottom: 2.5rem
 	.wrap-no-960
 		background-color: $blanco-fuerte
-		height: 50rem
+		padding-top: 2.5rem
+		padding-bottom: 2.5rem
+		h2
+			text-align: center
+			color: $negro-mate
+			font-weight: 700
+		.info-about-2
+			max-width: 1200px
+			width: 100%
+			padding: 2rem 0rem
+		.card
+			background-color: $blanco-suave
+			transition: 300ms all ease
+			&:hover
+				background-color: $blanco-fuerte
+			.card-body
+				background-repeat: no-repeat !important
+				background-position: center !important
+				.card-title
+					text-align: left !important
+					margin-bottom: 0rem
+				.card-text
+					text-align: center
+				hr
+					heigth: 0.1rem !important
+					border-top: 5px solid $blanco-fuerte !important
+					width: 10rem
+					margin-top: 0.3rem
+		.featured-info
+			margin-top: 1rem
+				

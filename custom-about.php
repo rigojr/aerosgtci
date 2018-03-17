@@ -36,7 +36,47 @@
 </div>
 
 <div class="wrap-no-960">
-	
+	<h2>TECHNOLOGIES</h2>
+	<div class="container">
+		<div class="row info-about-2">
+			<div class="col-sm-6 featured-info">
+				<div class="card">
+  					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/bitcoinlogo.png');">
+    					<h2 class="card-title">BITCOIN</h2>
+    					<hr align="left">
+    					<p class="card-text">It all started in October 2008 when an unknown person or group of people published on the Internet under the psudonimo Satoshi Nakamoto the description of how the computers of that time could be interconnected through the Internet and offer their computing capacity to carry the accounting record and perform the validation of the transactions of a digital currency that they denominated Bitcoin (BTC), thus forming a platform called Blockchain.</p>
+  					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 featured-info">
+				<div class="card">
+  					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/chain-logo.png');">
+    					<h2 class="card-title">BLOCKCHAIN</h2>
+    					<hr align="left">
+    					<p class="card-text">Satoshi Nakamoto’s proposal was read by many technologists and they began programming and configuring their computers so that while they were not using them they could offer their computing and calculation capacity to this new Blockchain network to validate Bitcoin transactions and receive payments for work. . Additionally, when a computer validated a transaction, it wrote it in the Blockchain and if a Block of the Chain was closed at that moment, the computer was additionally rewarded by a much larger amount in Bitcoins, which at the beginning was 50 Bitcoins, for this to the process of computers working and seeking to close a Block was called Mining.</p>
+  					</div>
+				</div>
+			</div>			
+			<div class="col-sm-6 featured-info">
+				<div class="card">
+  					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/coin-logo.png');">
+    					<h2 class="card-title">CRYPTOCURRENCY</h2>
+    					<hr align="left">
+    					<p class="card-text">The Blockchain technologies are so wonderful that new platforms were born to create new digital currencies, giving way to the era of Cryptocurrency or Cyptocoin. But why Cypto ?, will it be because the Bitcoin was published on a 31st October day of Halloween celebration ?, it could be but it is really because all the information in the Blockchain is protected (hidden) with a technique called Cryptography (Cryptography), with which all the computers that are mining can read the accounting book to validate transactions without knowing who the people are. Over time, new digital platforms were born that are making it easier for more people to obtain digital currencies and even how to use them to pay for air tickets, hotels, articles and even today to real estate. It is because of this acceptance that Cryptocurrencies have been gaining a lot of value, that a bitcoin already exceeds $ 10,000.</p>
+  					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 featured-info">
+				<div class="card">
+  					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/ether-logo.png');">
+    					<h2 class="card-title">ETHEREUM</h2>
+    					<hr align="left">
+    					<p class="card-text">The Ether (ETH), created a little over 2 years ago by Vitalik Buterin whose Blockchain called Ethereum has been designed with a greater potential to not only support its digital currency, the Ether, but allow the computers that Minen in its Blockchain can be used for additional functions to validate transactions, allowing the application functionality and programming of intelligent contracts giving way to new investment opportunities with the so-called Initial Coin Offering (ICO).</p>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <?php get_footer(); ?>
