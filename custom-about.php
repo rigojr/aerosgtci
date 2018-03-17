@@ -50,6 +50,15 @@
 			</div>
 			<div class="col-sm-6 featured-info">
 				<div class="card">
+  					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/ether-logo.png');">
+    					<h2 class="card-title">ETHEREUM</h2>
+    					<hr align="left">
+    					<p class="card-text">The Ether (ETH), created a little over 2 years ago by Vitalik Buterin whose Blockchain called Ethereum has been designed with a greater potential to not only support its digital currency, the Ether, but allow the computers that Minen in its Blockchain can be used for additional functions to validate transactions, allowing the application functionality and programming of smart contracts giving way to new investment opportunities with the so-called Initial Coin Offering (ICO).</p>
+  					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 featured-info">
+				<div class="card">
   					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/chain-logo.png');">
     					<h2 class="card-title">BLOCKCHAIN</h2>
     					<hr align="left">
@@ -66,17 +75,11 @@
   					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 featured-info">
-				<div class="card">
-  					<div class="card-body" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/img/ether-logo.png');">
-    					<h2 class="card-title">ETHEREUM</h2>
-    					<hr align="left">
-    					<p class="card-text">The Ether (ETH), created a little over 2 years ago by Vitalik Buterin whose Blockchain called Ethereum has been designed with a greater potential to not only support its digital currency, the Ether, but allow the computers that Minen in its Blockchain can be used for additional functions to validate transactions, allowing the application functionality and programming of intelligent contracts giving way to new investment opportunities with the so-called Initial Coin Offering (ICO).</p>
-  					</div>
-				</div>
-			</div>
+
 		</div>
 	</div>
 </div>
+
+<?php get_template_part( 'call-contact' ); ?>
 
 <?php get_footer(); ?>

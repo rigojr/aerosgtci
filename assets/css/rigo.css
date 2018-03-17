@@ -4,6 +4,7 @@
  * 2 - FOOTER
  * 3 - BREADCRUMB
  * 4 - ABOUT
+ * 5 - CALL CONTACT
  *
  */
 /* VARIABLES */
@@ -112,5 +113,30 @@ body .wrap-no-960 {
         margin-top: 0.3rem; }
   body .wrap-no-960 .featured-info {
     margin-top: 1rem; }
+
+/* CALL CONTACT */
+body .call-contact {
+  border-radius: 0rem; }
+  body .call-contact .wrap-call-contact {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem; }
+    body .call-contact .wrap-call-contact .call-contact-name h2 {
+      color: #FFFFFF;
+      font-size: 2.5rem;
+      text-align: center;
+      vertical-align: middle; }
+    body .call-contact .wrap-call-contact .call-contact-btn p {
+      text-align: center; }
+      body .call-contact .wrap-call-contact .call-contact-btn p a {
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        border-radius: 50px;
+        background-color: #0DFF72;
+        border-color: #0DFF72;
+        font-weight: 700;
+        background-size: cover; }
 
 /*# sourceMappingURL=rigo.css.map */
