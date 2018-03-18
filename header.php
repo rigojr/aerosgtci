@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/form.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/modal.css">
 </head>
 <body>
 	<header>
@@ -34,7 +36,7 @@
     						<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about">WHY US</a>
   						</li>
   						<li class="nav-item">
-    						<a class="nav-link" href="#">CONTACT</a>
+    						<a id="myBtn" class="nav-link" href="#">CONTACT</a>
   						</li>
   						<li class="nav-item">
     						<a class="nav-link" href="#">SIGN UP</a>
