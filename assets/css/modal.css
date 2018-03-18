@@ -113,7 +113,7 @@
  * Mobile styling
  */
 @media only screen and (max-width: 39.9375rem) {
-  .contact{
+  .contact, .subs{
     font-size: 1.25rem;
   }
 
@@ -133,8 +133,8 @@
     right: 15px !important;
   }
 
-  .form-login{
-    margin-top:10rem !important;
+  .contact{
+    margin-top:14rem !important;
   }
 
   #submit{
