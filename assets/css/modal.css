@@ -66,7 +66,7 @@
   -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 }
-.modal .close-modal {
+.modal .close-modalS,  .modal .close-modalF{
   position: absolute;
   cursor: pointer;
   top: 5px;
@@ -81,7 +81,7 @@
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
-.modal .close-modal svg {
+.modal .close-modalS svg, .modal .close-modalS svg {
   width: 1.75em;
   height: 1.75em;
 }
@@ -103,7 +103,7 @@
 .modal.active .modal-content {
   opacity: 1;
 }
-.modal.active .close-modal {
+.modal.active .close-modalS, .modal.active .close-modalF{
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
   opacity: 1;
@@ -129,7 +129,7 @@
             transform: scale(1.1);
   }
 
-  .close-modal {
+  .close-modalS, .close-modalF {
     right: 15px !important;
   }
 
