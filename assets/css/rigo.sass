@@ -7,6 +7,7 @@
 	4 - ABOUT
 	5 - CALL CONTACT
 	6 - PRODSERV
+	7 - CALL SUBS
 
 	*/
 
@@ -159,6 +160,8 @@ body
 					margin-top: 0.3rem
 		.featured-info
 			margin-top: 1rem
+	.card
+		height: 100% !important
 
 /* CALL CONTACT*/
 
@@ -188,11 +191,18 @@ body
 				border-color: $verde-fosfo
 				font-weight: 700
 				background-size: cover
+				box-shadow: 12px 15px 20px rgba(0,0,0,.1)
+				transition: 300ms all ease
+				&:hover
+					box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
 
 /* PRODSERV */
 body
 	.porserv-info
 		margin: 5rem auto
+	.porserv-info-2
+		margin: 0rem
+	.porserv-info, .porserv-info-2
 		h2, h6
 			text-align: center
 		img, ol
@@ -206,3 +216,22 @@ body
 			text-align: center
 			font-size: 1.6rem
 			font-weight: 200
+	.wrap-1200-white
+		background-color: $blanco-fuerte
+		padding-top: 5rem
+		padding-bottom: 2.5rem
+		.inner-wrap-960
+			width: 100%
+			max-width: 960px
+			margin: 0rem auto
+	.sub-title
+		text-align: center
+
+/* CALL SUBS */
+body
+	.wrap-call-contact
+		h4
+			color: $blanco-fuerte
+			font-weight: 700
+		h4,h2
+			text-align: center

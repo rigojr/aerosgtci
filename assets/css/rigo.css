@@ -6,6 +6,7 @@
  * 4 - ABOUT
  * 5 - CALL CONTACT
  * 6 - PRODSERV
+ * 7 - CALL SUBS
  *
  */
 /* VARIABLES */
@@ -116,6 +117,8 @@ body .wrap-no-960 {
         margin-top: 0.3rem; }
   body .wrap-no-960 .featured-info {
     margin-top: 1rem; }
+body .card {
+  height: 100% !important; }
 
 /* CALL CONTACT */
 body .call-contact {
@@ -140,23 +143,46 @@ body .call-contact-btn p {
     background-color: #0DFF72;
     border-color: #0DFF72;
     font-weight: 700;
-    background-size: cover; }
+    background-size: cover;
+    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+    transition: 300ms all ease; }
+    body .call-contact-btn p a:hover {
+      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1); }
 
 /* PRODSERV */
 body .porserv-info {
   margin: 5rem auto; }
-  body .porserv-info h2, body .porserv-info h6 {
-    text-align: center; }
-  body .porserv-info img, body .porserv-info ol {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem; }
-  body .porserv-info .carousel-caption {
-    color: #3B3B3B; }
-  body .porserv-info .card-text {
-    text-align: center; }
-  body .porserv-info .beau-text {
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: 200; }
+body .porserv-info-2 {
+  margin: 0rem; }
+body .porserv-info h2, body .porserv-info h6, body .porserv-info-2 h2, body .porserv-info-2 h6 {
+  text-align: center; }
+body .porserv-info img, body .porserv-info ol, body .porserv-info-2 img, body .porserv-info-2 ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+body .porserv-info .carousel-caption, body .porserv-info-2 .carousel-caption {
+  color: #3B3B3B; }
+body .porserv-info .card-text, body .porserv-info-2 .card-text {
+  text-align: center; }
+body .porserv-info .beau-text, body .porserv-info-2 .beau-text {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 200; }
+body .wrap-1200-white {
+  background-color: #FFFFFF;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem; }
+  body .wrap-1200-white .inner-wrap-960 {
+    width: 100%;
+    max-width: 960px;
+    margin: 0rem auto; }
+body .sub-title {
+  text-align: center; }
+
+/* CALL SUBS */
+body .wrap-call-contact h4 {
+  color: #FFFFFF;
+  font-weight: 700; }
+body .wrap-call-contact h4, body .wrap-call-contact h2 {
+  text-align: center; }
 
 /*# sourceMappingURL=rigo.css.map */

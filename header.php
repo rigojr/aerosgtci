@@ -22,16 +22,16 @@
 				<nav class="col-sm-9 navigation">
 					<ul class="nav justify-content-center">
   						<li class="nav-item">
-    						<a class="nav-link active" href="#">HOME</a>
+    						<a class="nav-link active" href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
   						</li>
   						<li class="nav-item">
-    						<a class="nav-link" href="#">SOLUTIONS</a>
+    						<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/solutions">SOLUTIONS</a>
   						</li>
   						<li class="nav-item">
-   							<a class="nav-link" href="#">NEWS</a>
+   							<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/news">NEWS</a>
   						</li>
   						<li class="nav-item">
-    						<a class="nav-link" href="#">WHY US</a>
+    						<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about">WHY US</a>
   						</li>
   						<li class="nav-item">
     						<a class="nav-link" href="#">CONTACT</a>

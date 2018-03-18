@@ -88,4 +88,33 @@
 	</div>
 </div>
 
+<?php get_template_part( 'call-subs' ); ?>
+<div class="wrap-1200-white container-fluid porserv-info-2">
+	<h2 class="sub-title">COMING SOON PRODUCTS</h2>
+	<div class="row inner-wrap-960">
+		<div class="col-sm-6 featured-info">
+			<div class="card">
+  				<div class="card-body" >
+    				<h2 class="card-title">GLUCO ANGEL</h2>
+    				<h6 class="card-subtitle mb-2 text-muted">Monitoring Gluco Device</h6>
+    				<div class="call-contact-btn">
+    					<p><a class="btn btn-success">GET MORE INFO!</a></p>
+    				</div>
+  				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 featured-info">
+			<div class="card">
+  				<div class="card-body" >
+    				<h2 class="card-title">SMART EGARY BLIND CANE</h2>    				
+    				<div class="call-contact-btn">
+    					<p><a class="btn btn-success">PREVIEW</a></p>
+    				</div>
+  				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php get_footer(); ?>
