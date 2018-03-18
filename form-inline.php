@@ -1,5 +1,5 @@
-<div class="modal-overlay">
-      <div class="modal">
+<div class="modal-overlayF">
+      <div class="modalF">
         
         <a class="close-modalF">
           <svg viewBox="0 0 20 20">

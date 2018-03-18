@@ -1,17 +1,18 @@
-var elements = $('.modal-overlay, .modal');
+var elementsF = $('.modal-overlayF, .modalF');
+var elementsS = $('.modal-overlayS, .modalS');
 
 $('#myBtnF').click(function(){
-    elements.addClass('active');
+    elementsF.addClass('active');
 });
 
 $('.close-modalF').click(function(){
-    elements.removeClass('active');
+    elementsF.removeClass('active');
 });
 
 $('#myBtnS').click(function(){
-    elements.addClass('active');
+    elementsS.addClass('active');
 });
 
 $('.close-modalS').click(function(){
-    elements.removeClass('active');
+    elementsS.removeClass('active');
 });
