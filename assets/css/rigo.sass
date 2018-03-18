@@ -6,6 +6,7 @@
 	3 - BREADCRUMB
 	4 - ABOUT
 	5 - CALL CONTACT
+	6 - PRODSERV
 
 	*/
 
@@ -36,7 +37,8 @@ $tam-parrafo-normal: 1rem
 
 body
 	header
-		margin-top: 1.5rem
+		padding-top: 1.5rem
+		background-color: $blanco-fuerte
 		.container
 			.row
 				.logo
@@ -136,6 +138,7 @@ body
 			max-width: 1200px
 			width: 100%
 			padding: 2rem 0rem
+			margin: 0 auto
 		.card
 			background-color: $blanco-suave
 			transition: 300ms all ease
@@ -156,6 +159,7 @@ body
 					margin-top: 0.3rem
 		.featured-info
 			margin-top: 1rem
+
 /* CALL CONTACT*/
 
 body
@@ -173,14 +177,32 @@ body
 					font-size: $tam-bread-principal
 					text-align: center
 					vertical-align: middle
-			.call-contact-btn
-				p
-					text-align: center
-					a
-						font-size: 1.5rem
-						color: $blanco-fuerte
-						border-radius: 50px
-						background-color: $verde-fosfo
-						border-color: $verde-fosfo
-						font-weight: 700
-						background-size: cover
+	.call-contact-btn
+		p
+			text-align: center
+			a
+				font-size: 1.5rem
+				color: $blanco-fuerte !important
+				border-radius: 50px
+				background-color: $verde-fosfo
+				border-color: $verde-fosfo
+				font-weight: 700
+				background-size: cover
+
+/* PRODSERV */
+body
+	.porserv-info
+		margin: 5rem auto
+		h2, h6
+			text-align: center
+		img, ol
+			margin-top: 0.5rem
+			margin-bottom: 0.5rem
+		.carousel-caption
+			color: $negro-mate
+		.card-text
+			text-align: center
+		.beau-text
+			text-align: center
+			font-size: 1.6rem
+			font-weight: 200

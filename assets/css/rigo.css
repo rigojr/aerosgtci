@@ -5,6 +5,7 @@
  * 3 - BREADCRUMB
  * 4 - ABOUT
  * 5 - CALL CONTACT
+ * 6 - PRODSERV
  *
  */
 /* VARIABLES */
@@ -12,7 +13,8 @@
 /* TIPOGRAFIA */
 /* HEADER */
 body header {
-  margin-top: 1.5rem; }
+  padding-top: 1.5rem;
+  background-color: #FFFFFF; }
   body header .container .row .logo p {
     text-align: center; }
     body header .container .row .logo p a img {
@@ -92,7 +94,8 @@ body .wrap-no-960 {
   body .wrap-no-960 .info-about-2 {
     max-width: 1200px;
     width: 100%;
-    padding: 2rem 0rem; }
+    padding: 2rem 0rem;
+    margin: 0 auto; }
   body .wrap-no-960 .card {
     background-color: #EDEEF6;
     transition: 300ms all ease; }
@@ -128,15 +131,32 @@ body .call-contact {
       font-size: 2.5rem;
       text-align: center;
       vertical-align: middle; }
-    body .call-contact .wrap-call-contact .call-contact-btn p {
-      text-align: center; }
-      body .call-contact .wrap-call-contact .call-contact-btn p a {
-        font-size: 1.5rem;
-        color: #FFFFFF;
-        border-radius: 50px;
-        background-color: #0DFF72;
-        border-color: #0DFF72;
-        font-weight: 700;
-        background-size: cover; }
+body .call-contact-btn p {
+  text-align: center; }
+  body .call-contact-btn p a {
+    font-size: 1.5rem;
+    color: #FFFFFF !important;
+    border-radius: 50px;
+    background-color: #0DFF72;
+    border-color: #0DFF72;
+    font-weight: 700;
+    background-size: cover; }
+
+/* PRODSERV */
+body .porserv-info {
+  margin: 5rem auto; }
+  body .porserv-info h2, body .porserv-info h6 {
+    text-align: center; }
+  body .porserv-info img, body .porserv-info ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
+  body .porserv-info .carousel-caption {
+    color: #3B3B3B; }
+  body .porserv-info .card-text {
+    text-align: center; }
+  body .porserv-info .beau-text {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 200; }
 
 /*# sourceMappingURL=rigo.css.map */
