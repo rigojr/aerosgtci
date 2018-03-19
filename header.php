@@ -22,7 +22,7 @@
 				<nav class="col-sm-9 navigation">
 					<ul class="nav justify-content-center">
   						<li class="nav-item">
-    						<a class="nav-link active" href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
+    						<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
   						</li>
   						<li class="nav-item">
     						<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/solutions">SOLUTIONS</a>

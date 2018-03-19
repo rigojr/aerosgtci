@@ -21,7 +21,7 @@
           <center><div class="form-group" width="100%">
             <input id="phone-contact" name="phone-contact"  class="form-control" type="tel" placeholder="Phone Number">
           </div></center>
-         <center> <input id="submit" type="submit" name="submit" value="Subscribe"></input> </center>
+         <center class="call-contact-btn"> <input id="submit" type="submit" name="submit" value="Subscribe" class="btn btn-success"></input> </center>
         </form>
         <p>Lorem ipsum dolor sit amet</p>
         </div>

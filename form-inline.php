@@ -35,7 +35,7 @@
             <TEXTAREA id="text-contact-1" name="text-contact-1"  class="form-control" type="text" placeholder="Your Comments..." required></TEXTAREA> 
           </div>
           <!--<div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>-->
-         <center> <input id="submit" type="submit" name="submit"></input> </center>
+         <center class="call-contact-btn"><input id="submit" type="submit" name="submit" class="btn btn-success"></input> </center>
         </form>
         <p>Lorem ipsum dolor sit amet</p>
         </div>

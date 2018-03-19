@@ -25,7 +25,11 @@ body header {
     padding: 19px 0px; }
     body header .container .row nav ul li a {
       font-size: 1rem;
-      color: #3B3B3B; }
+      color: #3B3B3B;
+      transition: 300ms all ease;
+      border-bottom: 0.1rem solid #FFFFFF !important; }
+      body header .container .row nav ul li a:hover {
+        border-bottom: 0.1rem solid #0DFF72 !important; }
 
 /* FOOTER */
 body footer {
@@ -34,7 +38,10 @@ body footer {
   body footer .rrss {
     margin-bottom: 0.1rem; }
     body footer .rrss ul li a {
-      padding: 0rem 0.5rem; }
+      padding: 0rem 0.5rem;
+      transition: 300ms all ease; }
+      body footer .rrss ul li a:hover {
+        opacity: 0.5; }
       body footer .rrss ul li a img {
         max-width: 1rem; }
   body footer .copy p {
@@ -58,7 +65,11 @@ body .breadcrumb {
     margin: 0 auto; }
     body .breadcrumb .submenu ul li a {
       font-size: 1.3rem;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      padding-bottom: 0.1rem; }
+      body .breadcrumb .submenu ul li a:hover {
+        padding-bottom: 0rem;
+        border-bottom: 0.1rem solid #0DFF72 !important; }
 
 /* ABOUT */
 body .wrap-960 {
@@ -121,6 +132,9 @@ body .wrap-no-960 {
 body .card {
   height: 100% !important; }
 
+body .wrap-960 .bia-movement h2 {
+  font-size: 2.5rem; }
+
 /* CALL CONTACT */
 body .call-contact {
   border-radius: 0rem; }
@@ -137,18 +151,21 @@ body .call-contact {
       vertical-align: middle; }
 body .call-contact-btn p {
   text-align: center; }
-body .call-contact-btn a {
-  font-size: 1.5rem;
+body .call-contact-btn a, body .call-contact-btn input {
+  font-size: 1.5rem !important;
   color: #FFFFFF !important;
-  border-radius: 50px;
-  background-color: #0DFF72;
-  border-color: #0DFF72;
+  border-radius: 50px !important;
+  background-color: #0DFF72 !important;
+  border-color: #0DFF72 !important;
   font-weight: 700;
   background-size: cover;
   box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
-  transition: 300ms all ease; }
-  body .call-contact-btn a:hover {
-    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1); }
+  transition: 300ms all ease;
+  padding-top: 0.6rem !important; }
+  body .call-contact-btn a:hover, body .call-contact-btn input:hover {
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #28A745 !important;
+    border-color: #28A745 !important; }
 
 /* PRODSERV */
 body .porserv-info {
@@ -216,6 +233,10 @@ body .wrap-slider {
         text-shadow: none;
         text-align: right;
         margin-top: 2.5rem; }
+        body .wrap-slider .containerS .item .third-call a {
+          color: #3B3B3B !important; }
+          body .wrap-slider .containerS .item .third-call a:hover {
+            color: #FFFFFF !important; }
       body .wrap-slider .containerS .item .left-call {
         text-align: left; }
       body .wrap-slider .containerS .item .right-call {
