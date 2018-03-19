@@ -9,7 +9,9 @@
 	6 - PRODSERV
 	7 - CALL SUBS
 	8 - SLIDER
-
+	9 - INDEX
+	10 - PAGE & POST
+	11 - RESPONSIVO
 	*/
 
 /* VARIABLES */
@@ -61,6 +63,8 @@ body
 								border-bottom: 0.1rem solid $blanco-fuerte !important
 								&:hover
 									border-bottom: 0.1rem solid $verde-fosfo !important
+	.mobile-navigation
+		display: none
 
 /* FOOTER */
 body
@@ -110,6 +114,9 @@ body
 						&:hover
 							padding-bottom: 0rem
 							border-bottom: 0.1rem solid $verde-fosfo !important
+	.breadcrumb-normal
+		h1
+			margin: 2.5rem 0
 
 /* ABOUT */
 body
@@ -140,6 +147,8 @@ body
 				text-align: center
 		.info-final
 			margin-bottom: 2.5rem
+	.featured-info
+		margin: 1rem 0rem !important
 	.wrap-no-960
 		background-color: $blanco-fuerte
 		padding-top: 2.5rem
@@ -171,8 +180,6 @@ body
 					border-top: 5px solid $blanco-fuerte !important
 					width: 10rem
 					margin-top: 0.3rem
-		.featured-info
-			margin-top: 1rem
 	.card
 		height: 100% !important
 body 
@@ -227,6 +234,7 @@ body
 		h2, h6
 			text-align: center
 		img, ol
+			margin: 0rem auto
 			margin-top: 0.5rem
 			margin-bottom: 0.5rem
 		.carousel-caption
@@ -247,6 +255,9 @@ body
 			margin: 0rem auto
 	.sub-title
 		text-align: center
+	.carousel-item
+		p
+			text-align: center
 
 /* CALL SUBS */
 body
@@ -304,3 +315,140 @@ body
 	.pagination-slider
 		.active
 			background-color: $azul-fosfo
+
+/* INDEX */
+
+body
+	.wrap-post
+		margin: 5rem auto
+		max-width: 960px
+		.error-msg
+			text-align: center
+			font-size: $tam-bread-principal
+		.wrap-single-post
+			padding: 1rem
+			margin: 1rem 0rem
+			.category-post
+				ul
+					padding: 0
+					margin: 0
+					list-style-type: none
+					clear: both
+					overflow: hidden
+					li
+						float: left
+						margin: 0.3rem 0rem
+						a
+							padding: 0.25rem
+							margin: 0.25rem
+							color: $negro-mate !important
+							border-radius: 0
+							background-color: $verde-fosfo !important
+							border-color: $verde-fosfo !important
+							font-weight: 200
+							transition: 300ms all ease
+							font-size: tam-parrafo-normal
+							text-decoration: none
+							&:hover
+								background-color: $azul-mate !important
+								border-color: $azul-mate !important
+								color: $blanco-fuerte !important
+			.title-post
+				h2
+					text-align: center
+					padding: 1rem 0rem
+					a
+						color: $negro-mate
+						transition: 300ms all ease
+						text-decoration: none
+						&:hover
+							opacity: 0.5
+			.content-post
+				.img-post
+					p
+						text-align: center !important
+						img
+							max-hegith: 200px
+				.desc-post
+					p
+						text-align: justify
+				.img-name
+					h3
+						text-align: center
+						font-size: $tam-parrafo-normal
+						font-weight: 200
+				.author-post
+					p
+						padding-top: 1rem
+						font-size: $tam-footer-secundario
+						font-weight: 200
+				.call-contact-btn 
+					a
+						font-size: $tam-parrafo-normal !important
+			.tags-post
+				ul
+					padding: 0
+					margin: 0
+					list-style-type: none
+					clear: both
+					overflow: hidden
+					li
+						float: left
+						a
+							padding: 0.25rem
+							margin: 0.25rem
+							color: $negro-mate !important
+							border-color: $azul-mate !important
+							font-weight: 200
+							transition: 300ms all ease
+							font-size: tam-parrafo-normal
+							text-decoration: none
+	.pagination-posts
+		.links-pagination
+			.nav-links
+				margin: 0 auto
+			h2, .prev, .next
+				display: none
+		.prev-pagination
+			p
+				text-align: left
+		.next-pagination
+			p
+				text-align: right
+		a
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
+			color: $negro-mate !important
+			transition: 300ms all ease
+			&:hover
+				opacity: 0.5
+
+/* PAGE & POST */
+
+body
+	.wrap-page-content, .wrap-post-content
+		margin: 5rem auto
+		padding: 1rem
+		width: 100%
+		max-width: 1200px
+
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 768px)
+	body
+		header
+			.navigation
+				display: none
+		.mobile-navigation
+			display: inline-block
+			width: 100%
+	html
+		font-size: 12px
+	.img-whyus
+		padding: 1rem 0rem !important
+		img
+			max-width: 20rem
+		p
+			text-align: center
+	.info-about
+		margin: 2.5rem 0rem !important

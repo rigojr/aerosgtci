@@ -15,19 +15,21 @@
 					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   						<div class="carousel-inner">
     						<div class="carousel-item active">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc.jpg" alt="SEMC on duty image one">
+      							<p>
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc.jpg" alt="SEMC on duty image one">
+                    </p>
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-2.jpg" alt="SEMC on duty image two">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-2.jpg" alt="SEMC on duty image two"></p>
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-3.jpg" alt="SEMC on duty image three">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-3.jpg" alt="SEMC on duty image thr</p>ee">
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-4.jpg" alt="SEMC on duty image four">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-4.jpg" alt="SEMC on duty image four"></p>
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-5.jpg" alt="SEMC on duty image five">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/semc-5.jpg" alt="SEMC on duty image five"></p>
     						</div>
   						</div>
 					</div>
@@ -59,16 +61,16 @@
 					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   						<div class="carousel-inner">
     						<div class="carousel-item active">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-1.jpg" alt="NFC Badge image">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-1.jpg" alt="NFC Badge image"></p>
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-2.jpg" alt="NFC Wristband image">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-2.jpg" alt="NFC Wristband image"></p>
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-3.jpg" alt="NFC Coaster image">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-3.jpg" alt="NFC Coaster image"></p>
     						</div>
     						<div class="carousel-item ">
-      							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-4.jpg" alt="NFC Mouse Pad image">
+      							<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nfc-4.jpg" alt="NFC Mouse Pad image"></p>
     						</div>
   						</div>
 					</div>

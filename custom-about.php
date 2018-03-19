@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="row info-about">
 			<div class="img-whyus col-sm-4">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci.png" alt="GTCI Logo" title="Gruptech Cloud Innovations" >
+				<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci.png" alt="GTCI Logo" title="Gruptech Cloud Innovations" ></p>
 			</div>
 			<div class="about-info-1 col-sm-8">
 				<h2>ABOUT GRUPTECH CLOUD INNOVATIONS</h2>
