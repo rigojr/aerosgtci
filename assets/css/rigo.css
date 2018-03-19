@@ -216,7 +216,8 @@ body .wrap-call-contact h4, body .wrap-call-contact h2 {
 body .bg-slider {
   padding: 2.5rem 0rem;
   background-size: cover;
-  height: 100%; }
+  height: 100%;
+  background-position: center; }
 body .wrap-slider {
   width: 100%; }
   body .wrap-slider .containerS {
@@ -303,7 +304,8 @@ body .wrap-post {
     body .wrap-post .wrap-single-post .content-post .img-post p {
       text-align: center !important; }
       body .wrap-post .wrap-single-post .content-post .img-post p img {
-        max-hegith: 200px; }
+        max-height: 200px;
+        width: 100%; }
     body .wrap-post .wrap-single-post .content-post .desc-post p {
       text-align: justify; }
     body .wrap-post .wrap-single-post .content-post .img-name h3 {
@@ -374,6 +376,9 @@ body .wrap-page-content, body .wrap-post-content {
       text-align: center; }
 
   .info-about {
-    margin: 2.5rem 0rem !important; } }
+    margin: 2.5rem 0rem !important; }
+
+  .carousel-item img {
+    width: 100%; } }
 
 /*# sourceMappingURL=rigo.css.map */

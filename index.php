@@ -52,8 +52,6 @@
 		
 		<?php endwhile; ?>
 	
-	</section>
-
 	<div class="pagination-posts row">
 		<div class="col-sm-4 prev-pagination">
 			<p>
@@ -72,6 +70,10 @@
 	<?php else : ?>
 	<h2 class="error-msg">I'm sorry, there arn't News or Events load.</h2>
 	<?php endif; ?>
+
+	</section>
+
+	
 
 </div>
 
