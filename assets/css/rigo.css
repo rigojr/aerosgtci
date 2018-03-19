@@ -81,7 +81,8 @@ body .wrap-960 {
   body .wrap-960 .bia-movement h2 {
     color: #494A9F;
     font-weight: 700;
-    text-align: center; }
+    font-size: 4rem;
+    text-align: center !important; }
   body .wrap-960 .info-final {
     margin-bottom: 2.5rem; }
 body .wrap-no-960 {

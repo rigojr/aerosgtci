@@ -29,7 +29,14 @@
 		</div>
 		<div class="row info-about info-final">
 			<div class="col-sm-12 bia-movement">
-				<h2>SOCIAL RESPONSABILITY</h2>
+				<h2 class="cd-headline clip">
+				<span class="cd-words-wrapper">
+					<b class="is-visible">Social Responsibility</b>
+					<b>Product Quality</b>
+					<b>Product Safety</b>
+					<b>Supply Chain Security</b>
+					<b>Environmental Stewardship</b>
+				</h2>
 			</div>
 		</div>
 	</div>

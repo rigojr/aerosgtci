@@ -22,6 +22,10 @@
 @import url(assets/css/normalize.css);
 /* RIGO STYLES */
 @import url(assets/css/rigo.css);
+/*BRIAN STYLES */
+@import url(assets/css/brian.css);
+/*@import url(assets/css/modal.css);
+@import url(assets/css/form.css);*/
 /* GENERAL
  */
 * {

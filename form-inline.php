@@ -9,9 +9,7 @@
 
         <!--<div class="modal-content">-->
         <div class="form-login">
-          <div class="contact">
-            <h2> Contact Us </h2>
-          </div>
+        <center><h2 class="contact"> CONTACT US </h2></center>
         <form action="mail_to_glo.php" method="post">
           <div class="form-group">
             <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" placeholder="Full Name" required>
@@ -36,10 +34,10 @@
           <div class="form-group">
             <TEXTAREA id="text-contact-1" name="text-contact-1"  class="form-control" type="text" placeholder="Your Comments..." required></TEXTAREA> 
           </div>
-          <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
+          <!--<div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>-->
          <center> <input id="submit" type="submit" name="submit"></input> </center>
         </form>
-        <br><p>Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
         </div>
        <!-- </div> content -->
         

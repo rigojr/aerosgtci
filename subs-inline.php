@@ -9,9 +9,7 @@
 
         <!--<div class="modal-content">-->
         <div class="form-login">
-          <div class="subs">
-            <h2> Subscription </h2>
-          </div>
+        <center><h2 class="contact"> SUBSCRIPTION </h2></center>
         <form action="" method="post">
           <center><div class="form-group" width="100%">
             <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" placeholder="Full Name" required>
@@ -25,7 +23,7 @@
           </div></center>
          <center> <input id="submit" type="submit" name="submit" value="Subscribe"></input> </center>
         </form>
-        <br><p>Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
         </div>
        <!-- </div> content -->
         
