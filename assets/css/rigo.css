@@ -7,6 +7,7 @@
  * 5 - CALL CONTACT
  * 6 - PRODSERV
  * 7 - CALL SUBS
+ * 8 - SLIDER
  *
  */
 /* VARIABLES */
@@ -81,8 +82,7 @@ body .wrap-960 {
   body .wrap-960 .bia-movement h2 {
     color: #494A9F;
     font-weight: 700;
-    font-size: 4rem;
-    text-align: center !important; }
+    text-align: center; }
   body .wrap-960 .info-final {
     margin-bottom: 2.5rem; }
 body .wrap-no-960 {
@@ -137,18 +137,18 @@ body .call-contact {
       vertical-align: middle; }
 body .call-contact-btn p {
   text-align: center; }
-  body .call-contact-btn p a {
-    font-size: 1.5rem;
-    color: #FFFFFF !important;
-    border-radius: 50px;
-    background-color: #0DFF72;
-    border-color: #0DFF72;
-    font-weight: 700;
-    background-size: cover;
-    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
-    transition: 300ms all ease; }
-    body .call-contact-btn p a:hover {
-      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1); }
+body .call-contact-btn a {
+  font-size: 1.5rem;
+  color: #FFFFFF !important;
+  border-radius: 50px;
+  background-color: #0DFF72;
+  border-color: #0DFF72;
+  font-weight: 700;
+  background-size: cover;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  transition: 300ms all ease; }
+  body .call-contact-btn a:hover {
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1); }
 
 /* PRODSERV */
 body .porserv-info {
@@ -185,5 +185,46 @@ body .wrap-call-contact h4 {
   font-weight: 700; }
 body .wrap-call-contact h4, body .wrap-call-contact h2 {
   text-align: center; }
+
+/* SLIDER */
+body .bg-slider {
+  padding: 2.5rem 0rem;
+  background-size: cover;
+  height: 100%; }
+body .wrap-slider {
+  width: 100%; }
+  body .wrap-slider .containerS {
+    width: 100%;
+    margin: 5rem 0rem; }
+    body .wrap-slider .containerS .item {
+      margin: auto;
+      vertical-align: middle;
+      width: 80%; }
+      body .wrap-slider .containerS .item p {
+        color: #FFFFFF;
+        margin: 0rem;
+        text-shadow: 1px 1px 1px #000; }
+      body .wrap-slider .containerS .item .first-call {
+        font-size: 3rem;
+        font-weight: 700; }
+      body .wrap-slider .containerS .item .second-call span {
+        font-weight: 200; }
+      body .wrap-slider .containerS .item .second-call b {
+        color: #00B9FF;
+        font-size: 2.5rem; }
+      body .wrap-slider .containerS .item .third-call {
+        text-shadow: none;
+        text-align: right;
+        margin-top: 2.5rem; }
+      body .wrap-slider .containerS .item .left-call {
+        text-align: left; }
+      body .wrap-slider .containerS .item .right-call {
+        text-align: right; }
+      body .wrap-slider .containerS .item .center-call {
+        text-align: center; }
+body .dot {
+  background-color: #0DFF72; }
+body .pagination-slider .active {
+  background-color: #00B9FF; }
 
 /*# sourceMappingURL=rigo.css.map */

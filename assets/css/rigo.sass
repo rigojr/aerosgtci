@@ -8,6 +8,7 @@
 	5 - CALL CONTACT
 	6 - PRODSERV
 	7 - CALL SUBS
+	8 - SLIDER
 
 	*/
 
@@ -183,18 +184,18 @@ body
 	.call-contact-btn
 		p
 			text-align: center
-			a
-				font-size: 1.5rem
-				color: $blanco-fuerte !important
-				border-radius: 50px
-				background-color: $verde-fosfo
-				border-color: $verde-fosfo
-				font-weight: 700
-				background-size: cover
-				box-shadow: 12px 15px 20px rgba(0,0,0,.1)
-				transition: 300ms all ease
-				&:hover
-					box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
+		a
+			font-size: 1.5rem
+			color: $blanco-fuerte !important
+			border-radius: 50px
+			background-color: $verde-fosfo
+			border-color: $verde-fosfo
+			font-weight: 700
+			background-size: cover
+			box-shadow: 12px 15px 20px rgba(0,0,0,.1)
+			transition: 300ms all ease
+			&:hover
+				box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
 
 /* PRODSERV */
 body
@@ -235,3 +236,47 @@ body
 			font-weight: 700
 		h4,h2
 			text-align: center
+
+/* SLIDER */
+body
+	.bg-slider
+		padding: 2.5rem 0rem
+		background-size: cover
+		height: 100%
+	.wrap-slider
+		width: 100%
+		.containerS
+			width: 100%
+			margin: 5rem 0rem
+			.item
+				margin: auto
+				vertical-align: middle
+				width: 80%
+				p
+					color: $blanco-fuerte
+					margin: 0rem
+					text-shadow: 1px 1px 1px #000
+				.first-call
+					font-size: 3rem
+					font-weight: 700
+				.second-call
+					span
+						font-weight: 200
+					b
+						color: $azul-fosfo
+						font-size: 2.5rem
+				.third-call
+					text-shadow: none
+					text-align: right
+					margin-top: 2.5rem
+				.left-call
+					text-align: left
+				.right-call
+					text-align: right
+				.center-call
+					text-align: center
+	.dot
+		background-color: $verde-fosfo
+	.pagination-slider
+		.active
+			background-color: $azul-fosfo

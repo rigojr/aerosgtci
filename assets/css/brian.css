@@ -408,6 +408,7 @@ html {
 }
 
 .item{
+
   top: 2em;
   
   width: 60%;
@@ -420,7 +421,7 @@ html {
   animation-timing-function: ease-in-out;
 }
 
-.item-1, .item-2, .item-3{
+.item{
   animation-name: anim;
 }
 
