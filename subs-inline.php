@@ -10,7 +10,10 @@
         <!--<div class="modal-content">-->
         <div class="form-login">
         <center><h2 class="contact"> SUBSCRIPTION </h2></center>
-        <form action="" method="post">
+
+          <?php dynamic_sidebar( 'form-inline-subs' ); ?>
+
+        <!-- <form action="" method="post">
           <center><div class="form-group" width="100%">
             <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" placeholder="Full Name" required>
           </div></center>
@@ -23,8 +26,7 @@
           </div></center>
           <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
          <center class="call-contact-btn"> <input id="submit" type="submit" name="submit" value="Subscribe" class="btn btn-success"></input> </center>
-        </form>
-        <p>SEMC, NFC, GLUCOANGEL, SMART, EGARY BLIND CANE, and others...</p>
+        </form> -->
         </div>
        <!-- </div> content -->
         

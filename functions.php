@@ -21,6 +21,26 @@ function genesis_widgets() {
 		'before_title'  => '',
 		'after_title'   => '',
 	) );
+
+	register_sidebar( array(
+		'name'          => 'Form Contact Inline',
+		'id'            => 'form-inline-contact',
+		'description'   => 'No desc',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+
+	register_sidebar( array(
+		'name'          => 'Form Subs Inline',
+		'id'            => 'form-inline-subs',
+		'description'   => 'No desc',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
 	
 }
 

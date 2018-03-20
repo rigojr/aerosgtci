@@ -10,7 +10,10 @@
         <!--<div class="modal-content">-->
         <div class="form-login">
         <center><h2 class="contact"> CONTACT US </h2></center>
-        <form action="mail_to_glo.php" method="post">
+
+          <?php dynamic_sidebar( 'form-inline-contact' ); ?>
+
+        <!-- <form action="mail_contact.php" method="post">
           <div class="form-group">
             <input id="name-contact-1" name="name-contact-1" class="form-control" type="text" placeholder="Full Name" required>
           </div>
@@ -23,10 +26,12 @@
             <input id="phone-contact" name="phone-contact"  class="form-control" type="tel" placeholder="Phone Number">
           </div>
           <div id="pull" class="form-group inlineB">
-            <select id=interest-contact class="form-control">
-              <option>Select Your Interest</option>
-              <option>Information</option>
-              <option>Offers</option>
+            <select id="interest-contact" class="form-control" name="phone-contact">
+              <option>SEMC - Mining Computers</option>
+              <option>NFC Products</option>
+              <option>GLUCOANGEL</option>
+              <option>Smart Egary Blind Cane</option>
+              <option>Other</option>
             </select>
           </div>
 
@@ -36,8 +41,7 @@
           </div>
           <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
          <center class="call-contact-btn"><input id="submit" type="submit" name="submit" class="btn btn-success"></input> </center>
-        </form>
-        <p>SEMC, NFC, GLUCOANGEL, SMART, EGARY BLIND CANE, and others...</p>
+        </form> -->
         </div>
        <!-- </div> content -->
         

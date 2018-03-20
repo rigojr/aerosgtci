@@ -211,7 +211,7 @@ input#name-contact-1:focus, input#text-contact-1:focus, input#phone-contact:focu
 
 /*FORM*/
 
-.form-control {
+.form-control, .wpcf7-text , .wpcf7-number, .wpcf7-select , .wpcf7-textarea, .wpcf7-submit{
     display: block;
     width: 100%;
     height: 34px;

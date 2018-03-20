@@ -172,6 +172,26 @@ body .call-contact-btn a, body .call-contact-btn input {
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
     background-color: #28A745 !important;
     border-color: #28A745 !important; }
+body .wpcf7-submit {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem !important;
+  color: #FFFFFF !important;
+  border-radius: 50px !important;
+  background-color: #0DFF72 !important;
+  border-color: #0DFF72 !important;
+  font-weight: 700;
+  background-size: cover;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  transition: 300ms all ease;
+  padding-bottom: 2.5rem;
+  cursor: pointer; }
+  body .wpcf7-submit:hover {
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #28A745 !important;
+    border-color: #28A745 !important; }
+body .wpcf7-textarea {
+  height: 5rem; }
 
 /* PRODSERV */
 body .porserv-info {
