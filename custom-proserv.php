@@ -46,7 +46,7 @@
     					MORE INFORMATION...? <a href="#">CLIC HERE</a> 
     				</p>
     					<div class="call-contact-btn">
-    						<p><a class="btn btn-success">BOOK YOURS TODAY!</a></p>
+    						<p><a class="btn btn-success openF">BOOK YOURS TODAY!</a></p>
     					</div>
   				</div>
 			</div>
@@ -82,7 +82,7 @@
     				</ol>
     				<p class="beau-text"><i>COMING SOON PRODUCTS</i></p>
     				<div class="call-contact-btn">
-    					<p><a class="btn btn-success">READ MORE</a></p>
+    					<p><a class="btn btn-success openF">READ MORE</a></p>
     				</div>
   				</div>
 			</div>
@@ -100,7 +100,7 @@
     				<h2 class="card-title">GLUCO ANGEL</h2>
     				<h6 class="card-subtitle mb-2 text-muted">Monitoring Gluco Device</h6>
     				<div class="call-contact-btn">
-    					<p><a class="btn btn-success">GET MORE INFO!</a></p>
+    					<p><a class="btn btn-success openF">GET MORE INFO!</a></p>
     				</div>
   				</div>
 			</div>
@@ -111,7 +111,7 @@
   				<div class="card-body" >
     				<h2 class="card-title">SMART EGARY BLIND CANE</h2>    				
     				<div class="call-contact-btn">
-    					<p><a class="btn btn-success">PREVIEW</a></p>
+    					<p><a class="btn btn-success openF">PREVIEW</a></p>
     				</div>
   				</div>
 			</div>

@@ -6,7 +6,7 @@
 		</div>
 		<div class="col-sm-4 call-contact-btn">
 			<p>
-				<a class="btn btn-success">JOIN US</a>
+				<a class="btn btn-success openS">JOIN US</a>
 			</p>
 		</div>
 	</div>

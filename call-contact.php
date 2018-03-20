@@ -5,7 +5,7 @@
 		</div>
 		<div class="col-sm-4 call-contact-btn">
 			<p>
-				<a class="btn btn-success">CONTACT US</a>
+				<a class="btn btn-success openF">CONTACT US</a>
 			</p>
 		</div>
 	</div>

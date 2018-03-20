@@ -24,3 +24,12 @@ $('#movS').click(function(){
 $('#movF').click(function(){
     elementsF.addClass('active');
 });
+
+$('.openF').click(function(){
+    elementsF.addClass('active');
+});
+
+$('.openS').click(function(){
+    elementsS.addClass('active');
+});
+
