@@ -21,9 +21,10 @@
           <center><div class="form-group" width="100%">
             <input id="phone-contact" name="phone-contact"  class="form-control" type="tel" placeholder="Phone Number">
           </div></center>
+          <div class="g-recaptcha form-group espacio" data-sitekey="6LcGqEUUAAAAALEQnO-QVgI6orvow86_D9vI-87-"></div>
          <center class="call-contact-btn"> <input id="submit" type="submit" name="submit" value="Subscribe" class="btn btn-success"></input> </center>
         </form>
-        <p>Lorem ipsum dolor sit amet</p>
+        <p>SEMC, NFC, GLUCOANGEL, SMART, EGARY BLIND CANE, and others...</p>
         </div>
        <!-- </div> content -->
         

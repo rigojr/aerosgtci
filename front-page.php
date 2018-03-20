@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-fluid bg-slider" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/bg-slider.jpg);'">
+<div class="container-fluid bg-slider" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/bg-slider.jpg'">
 	<div class="wrap-slider">
 		<div class="containerS">
 			<div class="mySlides item">

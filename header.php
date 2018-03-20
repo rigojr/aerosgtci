@@ -64,10 +64,10 @@
             <a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about">WHY US</a>
           </li>
           <li class="nav-item">
-            <a id="myBtnF" class="nav-link" href="#">CONTACT</a>
+            <a id="movF" class="nav-link" href="#">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a id="myBtnS" class="nav-link" href="#">SIGN UP</a>
+            <a id="movS" class="nav-link" href="#">SIGN UP</a>
           </li>
         </ul>
       </div>

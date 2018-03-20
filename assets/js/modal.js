@@ -16,3 +16,11 @@ $('#myBtnS').click(function(){
 $('.close-modalS').click(function(){
     elementsS.removeClass('active');
 });
+
+$('#movS').click(function(){
+    elementsS.addClass('active');
+});
+
+$('#movF').click(function(){
+    elementsF.addClass('active');
+});
