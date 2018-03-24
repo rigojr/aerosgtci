@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js">
 <head>
 	<title>Gruptech Cloud Innovations</title>
 	<meta charset="UTF-8">
@@ -11,6 +11,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
 </head>
 <body>
+		<div class="loader">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/loader.gif" alt="Loading...">
+          <div class="bar"></div>
+    	</div>
 	<header>
 		<div class="container">
 			<div class="row">

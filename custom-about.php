@@ -35,7 +35,7 @@
 					<b>Product Quality</b>
 					<b>Product Safety</b>
 					<b>Supply Chain Security</b>
-					<b>Environmental Stewardship</b>
+					<b>Substantial Maintenance</b>
 				</h2>
 			</div>
 		</div>
