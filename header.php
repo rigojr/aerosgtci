@@ -52,8 +52,8 @@
   <div class="pos-f-t mobile-navigation">
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg-dark p-4">
-        <h4 class="text-white">Navigation Menu</h4>
-        <span class="text-muted">Toggleable via the navbar brand.</span>
+        <h4 class="text-white">Main Menu</h4>
+        <span class="text-muted">Call us on 123456789</span>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>

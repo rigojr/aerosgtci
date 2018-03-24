@@ -495,3 +495,16 @@ html {
     95% {left: 120%;}
     to {left: 100%;}
 }
+
+/* ---- 404 ---- */
+.error-template h1{
+  font-size:3.5rem;
+}
+
+.error-template h2{
+  font-size:2rem;
+}
+
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
