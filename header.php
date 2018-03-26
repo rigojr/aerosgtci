@@ -12,7 +12,7 @@
 </head>
 <body>
 		<div class="loader">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/loader.gif" alt="Loading...">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci-cuadro.png" style="width: 10%" alt="Loading...">
           <div class="bar"></div>
     	</div>
 	<header>
@@ -53,7 +53,7 @@
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg-dark p-4">
         <h4 class="text-white">Main Menu</h4>
-        <span class="text-muted">Call us on 123456789</span>
+        <span class="text-muted">Call us on +1 602 331 4569</span>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>

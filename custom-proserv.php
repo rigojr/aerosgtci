@@ -6,7 +6,7 @@
 
 <div class="wrap-960 container porserv-info">
 	<div class="row">
-		<div class="col-sm-6 featured-info">
+		<div class="col-sm-6 featured-info" id="semc">
 			<div class="card">
   				<div class="card-body" >
     				<h2 class="card-title">SEMC</h2>
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 featured-info">
+		<div class="col-sm-6 featured-info" id="nfc">
 			<div class="card">
   				<div class="card-body" >
     				<h2 class="card-title">NFC PRODUCTS</h2>
@@ -82,7 +82,7 @@
     				</ol>
     				<p class="beau-text"><i>COMING SOON PRODUCTS</i></p>
     				<div class="call-contact-btn">
-    					<p><a class="btn btn-success openF">READ MORE</a></p>
+    					<p><a class="btn btn-success" href="https://gruptechcloudinnovations.com/wp-content/uploads/2018/01/CoolPop-Presentation.pdf" target="_blank">READ MORE</a></p>
     				</div>
   				</div>
 			</div>
@@ -91,7 +91,7 @@
 </div>
 
 <?php get_template_part( 'call-subs' ); ?>
-<div class="wrap-1200-white container-fluid porserv-info-2">
+<div class="wrap-1200-white container-fluid porserv-info-2" id="glucoangel">
 	<h2 class="sub-title">COMING SOON PRODUCTS</h2>
 	<div class="row inner-wrap-960">
 		<div class="col-sm-6 featured-info">
@@ -106,7 +106,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 featured-info">
+		<div class="col-sm-6 featured-info" id="egary">
 			<div class="card">
   				<div class="card-body" >
     				<h2 class="card-title">SMART EGARY BLIND CANE</h2>    				

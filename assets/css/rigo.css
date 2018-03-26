@@ -11,6 +11,7 @@
  * 9 - INDEX
  * 10 - PAGE & POST
  * 11 - RESPONSIVO
+ * 12 - MISCELLANEOUS
  */
 /* VARIABLES */
 /* COLORES */
@@ -376,6 +377,12 @@ body .wrap-page-content, body .wrap-post-content {
   width: 100%;
   max-width: 1200px; }
 
+/* MISCELLANEOUS */
+body .loader img {
+  width: 10%; }
+body .wpcf7-response-output {
+  display: none; }
+
 /* RESPONSIVO */
 @media screen and (max-width: 768px) {
   body header .navigation {
@@ -398,6 +405,19 @@ body .wrap-page-content, body .wrap-post-content {
     margin: 2.5rem 0rem !important; }
 
   .carousel-item img {
-    width: 100%; } }
+    width: 100%; }
+
+  footer .copy .author {
+    font-size: 1rem !important; }
+  footer .rrss ul {
+    padding-bottom: 1rem; }
+    footer .rrss ul li a img {
+      max-width: 1.5rem !important; }
+
+  .loader img {
+    width: 35% !important; }
+
+  .submenu {
+    display: none; } }
 
 /*# sourceMappingURL=rigo.css.map */

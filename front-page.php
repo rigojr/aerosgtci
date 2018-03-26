@@ -11,7 +11,7 @@
 			<div class="mySlides item">
 					<p class="first-call"><b>Gruptech Cloud Innovations was present</b></p>
 					<p class="second-call">at <b>#CES2018.</b> <span>Want to know more? </span></p>
-					<p class="openF third-call call-contact-btn center-call"><a class="btn btn-success" href="#">TAKE A LOOK</a></p>
+					<p class="third-call call-contact-btn center-call"><a class="btn btn-success" href="https://gruptechcloudinnovations.com/gtci-present-ces2018/">TAKE A LOOK</a></p>
 			</div>
 			<div class="mySlides item">
 					<p class="first-call"><b>Upcoming Releases</b></p>
