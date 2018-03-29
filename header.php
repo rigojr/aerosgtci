@@ -53,7 +53,17 @@
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg-dark p-4">
         <h4 class="text-white">Main Menu</h4>
-        <span class="text-muted">Call us on +1 602 331 4569</span>
+        <span class="text-muted">Call us on +1 602 331 4569
+          <div class="rrssB">
+            <a class="nav-link rs" href="https://www.facebook.com/Gruptech-Cloud-Innovations-162171117764577/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="facebook logo">
+            </a>
+            <a class="nav-link rs psh" href="https://www.instagram.com/gruptechci/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="instagram logo">
+            </a>
+        </div>
+        </span>
+        
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
