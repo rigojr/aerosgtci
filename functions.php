@@ -66,4 +66,8 @@ function my_post_queries( $query ) {
 }
 add_action( 'pre_get_posts', 'my_post_queries' );
 
+add_theme_support('post-thumbnails');
+add_image_size('list_articles_thumbs',400,200,true);
+add_image_size('article_thumb',500,400,true);
+
 ?>

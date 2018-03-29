@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="js">
+<html lang="en">
 <head>
 	<title>Gruptech Cloud Innovations</title>
 	<meta charset="UTF-8">
