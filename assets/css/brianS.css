@@ -1,0 +1,14 @@
+/* COLORES */
+/* TIPOGRAFIA */
+/* RRSS */
+.rrssB {
+  float: right;
+  margin-top: -0.7rem; }
+  .rrssB .rs {
+    display: inline-block; }
+
+/* GALERY (RESPONSIVE) */
+#galery-2 .galery-item {
+  width: 100% !important; }
+
+/*# sourceMappingURL=brianS.css.map */
