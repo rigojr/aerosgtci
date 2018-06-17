@@ -8,7 +8,11 @@
     display: inline-block; }
 
 /* GALERY (RESPONSIVE) */
-#galery-2 .galery-item {
-  width: 100% !important; }
+@media screen and (max-width: 768px) {
+  #galery-2 .galery-item {
+    width: 100% !important; }
+
+  .cd-headline.clip {
+    font-size: 2rem !important; } }
 
 /*# sourceMappingURL=brianS.css.map */

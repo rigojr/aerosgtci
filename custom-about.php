@@ -29,13 +29,14 @@
 		</div>
 		<div class="row info-about info-final" id="features">
 			<div class="col-sm-12 bia-movement">
-				<h2 class="cd-headline clip">
+				<h2 class="cd-headline clip" style = "word-break: break-all; word-wrap: break-word;">
 				<span class="cd-words-wrapper">
 					<b class="is-visible">Social Responsibility</b>
 					<b>Product Quality</b>
 					<b>Product Safety</b>
 					<b>Supply Chain Security</b>
 					<b>Substantial Maintenance</b>
+				</span>
 				</h2>
 			</div>
 		</div>

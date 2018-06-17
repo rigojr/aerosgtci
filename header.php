@@ -12,7 +12,7 @@
 </head>
 <body>
 		<div class="loader">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci-cuadro.png" style="width: 10%" alt="Loading...">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci-cuadro.png" style="width: 10%" alt="Loading..." title = "Loader">
           <div class="bar"></div>
     	</div>
 	<header>
@@ -56,10 +56,10 @@
         <span class="text-muted">Call us on +1 602 331 4569
           <div class="rrssB">
             <a class="nav-link rs" href="https://www.facebook.com/Gruptech-Cloud-Innovations-162171117764577/" target="_blank">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="facebook logo">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="facebook logo" title="Facebook GTCI">
             </a>
             <a class="nav-link rs psh" href="https://www.instagram.com/gruptechci/" target="_blank">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="instagram logo">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="instagram logo" title="Instagram GTCI">
             </a>
         </div>
         </span>
